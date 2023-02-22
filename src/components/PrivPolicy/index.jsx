@@ -2,12 +2,14 @@ import React from "react";
 import { Button, Modal, Paper, Typography } from '@mui/material';
 
 
+
 const PrivPolicy = ({ onClose }) => {
+
 
 
   return (
     <Modal open={true} onClose={onClose}>
-    <Paper sx={{ overflow:'auto', height: '1000px', position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', width: '100%', maxWidth: 600, p: 3 }}>
+    <Paper sx={{ overflow:'auto', height: '80%', position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', width: '100%', maxWidth: 600, p: 3 }}>
       <Button variant="contained" style={{padding: 0, backgroundColor: '#27AAE1', position: 'absolute', top: '5px', right: '5px', width: '20px', height: '20px', borderRadius: '1rem' }} onClick={onClose}>x</Button>
       <Typography variant="h5" mb={2}>Privacy Policy</Typography>
       <Typography variant="body1" mb={2}>
